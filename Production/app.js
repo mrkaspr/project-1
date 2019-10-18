@@ -37,15 +37,6 @@ var allSame = function(arr){
   })
 }
 
-//function that indicate the start of the program and 'can be a reset function'
-var init = function(){
-  var victory = false
-
-  enableListener()
-
-
-}
-
 var takeTurn = function(index, letter){
   grid()[index].innerText = letter
 }
@@ -108,7 +99,7 @@ var disableListener = function(){
   })
 }
 
-init()
+enableListener()
 
 /*
 
@@ -121,4 +112,4 @@ Things to do:
 Things need to improve
 1. With this logic, AI entry can be overriden with human player. 
    Need to built control to handel this scenario
-2. Need a reset button return to start where board is value is empty
+2. Need a reset button return to start where board is value is empty*/
