@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  width: 320px;
+  height: 480px;
+  margin: 0px auto;
+}
+
+header{
+  text-align: center;
+}
+
+.container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content:center;
+  height: 70%;
+}
+
+.box{
+  /*border: 1px solid black;*/
+  background-color: cadetblue;
+  margin: 1px;
+  width: 100px;
+  height: 100px;
+  /*width: 32%;*/
+
+}
+
+footer{
+  text-align: center;
+}
+
+.used{
+  
+}
